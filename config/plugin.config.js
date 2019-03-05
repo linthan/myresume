@@ -17,7 +17,6 @@ export default config => {
           path.resolve(outputPath, "CNAME"),
           "resume.melican.cn"
         );
-        console.log("-----------------", "11");
         ghpages.publish(outputPath, { dotfiles: true }, err => {
           console.log("err", err);
           return;
@@ -32,7 +31,6 @@ export default config => {
         ]);
         // 重新发布到 ghpages
         ghpages.publish(outputPath, { dotfiles: true }, err => {
-          console.log("err", err);
           return;
         });
       }

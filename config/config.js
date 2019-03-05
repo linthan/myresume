@@ -9,6 +9,7 @@ export default {
   //   externals: {
   //     react: "window.React"
   //   },
+  hash: true,
   targets: {
     android: 5,
     ios: 7,
