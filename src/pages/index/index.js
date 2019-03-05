@@ -17,6 +17,24 @@ class Index extends PureComponent {
         </a>
         <main className="content">
           <header className="content-hd">
+            <section className="language">
+              <button
+                onClick={() => {
+                  if (getLocale() === "zh-CN") {
+                    setLocale("en-US");
+                  } else {
+                    setLocale("zh-CN");
+                  }
+                }}
+                type="button"
+                class="language-chose"
+              >
+                {formatMessage({
+                  id: "switchTo",
+                  defaultMessage: "change language"
+                })}
+              </button>
+            </section>
             <section className="title">
               <div className="name">
                 <h1>付四凯</h1>
