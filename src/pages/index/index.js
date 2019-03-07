@@ -22,7 +22,7 @@ class Index extends PureComponent {
         </a>
         <main className="content">
           <header className="content-hd">
-            <section className="language">
+            {/* <section className="language">
               <button
                 onClick={() => {
                   if (getLocale() === "zh-CN") {
@@ -39,7 +39,7 @@ class Index extends PureComponent {
                   defaultMessage: "change language"
                 })}
               </button>
-            </section>
+            </section> */}
             <section className="title">
               <div className="name">
                 <h1>
@@ -193,6 +193,16 @@ class Index extends PureComponent {
                         <li>
                           小组后台框架初始化和基本组件维护,例如接入公司OA，权限管理系统的基本代码库
                         </li>
+                        <li>
+                          斗鱼云资源管理平台维护,主要负责管控公司所有的存储服务。后端存储服务对接阿里OSS,内部机密数据对接
+                          <a
+                            target="_blank"
+                            href="https://github.com/ceph/ceph"
+                          >
+                            ceph
+                          </a>
+                          。
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -220,7 +230,24 @@ class Index extends PureComponent {
                           <a href="https://github.com/linthan/encryptapi-demo">
                             encryptapi-demo
                           </a>
-                          接口加密鉴权
+                          : 接口加密鉴权DEMO
+                        </li>
+                        <li>
+                          <a
+                            target="_blank"
+                            href="https://github.com/linthan/echoboot"
+                          >
+                            echoboot
+                          </a>
+                          :{"     "}
+                          开发web应用的脚手架,快速开始一个
+                          <a
+                            target="_blank"
+                            href="https://github.com/labstack/echo"
+                          >
+                            echo
+                          </a>
+                          项目。
                         </li>
                       </ul>
                     </div>
