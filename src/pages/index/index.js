@@ -337,6 +337,21 @@ class Index extends PureComponent {
                       </ul>
                     </div>
                   </div>
+                  {/* english */}
+                  <div className="item">
+                    <header className="item-hd">
+                      <span className="item-time">英语</span>
+                      <a className="btn item-more">熟练</a>
+                    </header>
+                    <div className="item-bd">
+                      <ul className="section-content">
+                        <li>完全无障碍阅读技术类英语书籍</li>
+                        <li>词汇量10000+</li>
+                        <li>雅思6.0</li>
+                        <li>英语六级600</li>
+                      </ul>
+                    </div>
+                  </div>
 
                   {/* Webpack */}
                   <div className="item">
@@ -404,7 +419,7 @@ class Index extends PureComponent {
                     </header>
                     <div className="item-bd">
                       <ul className="section-content">
-                        <li>掌握Java、Git、Docker</li>
+                        <li>掌握Git、Docker、Java</li>
                         <li>资深Mac用户、资深vscode用户、长期使用Ubuntu系统</li>
                       </ul>
                     </div>
