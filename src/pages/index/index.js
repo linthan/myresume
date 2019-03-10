@@ -252,6 +252,33 @@ class Index extends PureComponent {
                       </ul>
                     </div>
                   </div>
+                  <div className="item">
+                    <header className="item-hd">
+                      <a className="btn item-more" href="https://golang.org">
+                        Sass,Less,Css
+                      </a>
+                    </header>
+                    <div className="item-bd">
+                      <ul>
+                        <li>
+                          <a target="_blank" href="http://sword.melican.cn">
+                            龙舞云山
+                          </a>
+                          : umi+ sass +swiper实践
+                        </li>
+                        <li>
+                          <a
+                            target="_blank"
+                            href="https://linthan.github.io/slidecard/"
+                          >
+                            slidecard
+                          </a>
+                          :{"     "}
+                          一个slide展示demo
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </section>
             </div>
