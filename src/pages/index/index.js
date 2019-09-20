@@ -179,30 +179,17 @@ class Index extends PureComponent {
                     </header>
                     <div className="item-bd">
                       <p className="item-des">
-                        于斗鱼页面流量线做斗鱼微信小程序,斗鱼视频站,斗鱼移动端,快应用,头条小程序的开发。
+                        在斗鱼页面流量线做小程序业务,后台基础开发。
                         涉及如下工作：
                       </p>
                       <ul className="section-content">
-                        <li>斗鱼春节红包裂变活动服务端开发,红包零钱实时到账</li>
+                        <li>春节裂变活动-服务端核心接口开发</li>
+                        <li>五一裂变活动-服务端核心接口开发</li>
+                        <li>独立负责小组后台项目基础组件开发维护</li>
                         <li>
-                          斗鱼移动端管理平台构建和维护(项目创建者)。具有APP换肤,弹幕降级,软硬解码管理等功能
+                          公司级别控制台项目负责人，开发斗鱼控制台以及配套的基础组件
                         </li>
-                        <li>
-                          斗鱼小程序管理平台构建和维护(项目创建者)。具有斗鱼春节红包裂变活动,斗鱼小程序模板配置，消息推送管理,小程序挂件管理等功能
-                        </li>
-                        <li>
-                          小组后台框架初始化和基本组件维护,例如接入公司OA，权限管理系统的基本代码库
-                        </li>
-                        <li>
-                          斗鱼云资源管理平台维护,主要负责管控公司所有的存储服务。后端存储服务对接阿里OSS,内部机密数据对接
-                          <a
-                            target="_blank"
-                            href="https://github.com/ceph/ceph"
-                          >
-                            ceph
-                          </a>
-                          。
-                        </li>
+                        <li>斗鱼存储服务</li>
                       </ul>
                     </div>
                   </div>
@@ -216,7 +203,47 @@ class Index extends PureComponent {
                   <span className="section-title-r" />
                 </header>
                 <div className="section-bd">
-                  以下是我的开源项目与总结，思路与细节请点击链接查看文档
+                  <div className="item">
+                    <header className="item-hd">
+                      <a className="btn item-more">公司级项目</a>
+                    </header>
+                    <div className="item-bd">
+                      <ul>
+                        <li>
+                          <span>
+                            <a>斗鱼控制台</a>
+                          </span>
+                          <div>效果：统一斗鱼react技术栈后台</div>
+                          <div>
+                            难点：功能设计，全公司推广，解决不同项目的兼容问题
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="item">
+                    <header className="item-hd">
+                      <a className="btn item-more">小程序高危需求</a>
+                    </header>
+                    <div className="item-bd">
+                      <ul>
+                        <li>
+                          <span>
+                            <a>春节裂变活动</a>
+                          </span>
+                          <div>效果：参与人数800万+，活动分享数千万+</div>
+                          <div>难点：支付流程，风险防范</div>
+                        </li>
+                        <li>
+                          <span>
+                            <a>五一裂变活动</a>
+                          </span>
+                          <div>活动性质和新春裂变活动性质一样，效果相近</div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
                   {/* 项目:Golang */}
                   <div className="item">
                     <header className="item-hd">
@@ -252,6 +279,7 @@ class Index extends PureComponent {
                       </ul>
                     </div>
                   </div>
+
                   <div className="item">
                     <header className="item-hd">
                       <a className="btn item-more" href="https://golang.org">

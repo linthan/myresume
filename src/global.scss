@@ -328,6 +328,18 @@ a {
   .item-bd {
     margin-bottom: 5px;
   }
+  .item-bd {
+    li {
+      margin-bottom: 10px;
+      span {
+        margin-bottom: 5px;
+      }
+      div {
+        padding-left: 18px;
+        margin-bottom: 5px;
+      }
+    }
+  }
   .item-des {
     margin-bottom: 16px;
   }
